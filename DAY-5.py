@@ -158,6 +158,7 @@ s1.withdraw(1000)
 print(s1.name)
 print(s1.set())#private members cannot acess overcome by name mangling
 print("i am learing git")
+print("i stage and commit because eariler commit was done befor pull")
         
         
 
