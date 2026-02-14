@@ -1,4 +1,4 @@
-'''#polymorphism(many forms same method for diffent behaviour
+ #polymorphism(many forms same method for diffent behaviour
 #no overloding (same method name different parameter) overriding (same method name in different class)
 
 class animal:
@@ -99,7 +99,7 @@ class stu:
         print("name =",self.name,"age=",self.__age)#orself.set()
 
 s1 =stu("varshini",21)
-s1.get()'''
+s1.get()
 #example for 3 together(private member acn acess freeliy inside same same class,not in child class and another class)
 class  company:
     def __init__(self,name,_accno,__balance):
@@ -124,6 +124,7 @@ print(s1.name)
 print(s1.set())#private members cannot acess overcome by name mangling
         
         
+
 
 
 
